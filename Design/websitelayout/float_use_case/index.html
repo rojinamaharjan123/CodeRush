@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <style>
+        *{
+            padding : 0;
+            margin : 0;
+            width : 100%;
+            box-sizing: border-box;
+        }
+        {% comment %} .container1{
+            border: 2px solid #000;
+            padding : 20px;
+            display : block;
+            width : 900px;
+            background-color : #ffffff;
+            height : 900px;
+        } {% endcomment %}
+        .container2{
+            border: 2px solid #000;
+            padding : 5px;
+            display : block;
+        }
+        .top{
+            border: 2px solid #000;
+            padding : 25px;
+            display : block;
+            background-color : grey;
+            height : 300px;
+            color : white;
+        }
+        .buttom{
+            border: 2px solid #000;
+            padding : 25px;
+            display : block;
+            background-color : grey;
+            height : 200px;
+            color :  #ffffff;
+        }
+        .column{
+            float : left;
+        }
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+          }
+        .left{
+            padding: 5px;
+            background-color : blue;
+            width : 45%;
+        }
+       .right{
+            padding: 5px;
+            background-color : olive;
+            width : 55%;
+        } 
+    
+    </style>
+</head>
+<body>
+        <div class ="top">
+        <header><h2>This is header</h2></header>
+        </div>
+        <div class="clearfix">
+            <div class =" column left">
+                <h2>Left</h2>
+            </div>
+            <div class ="column right">
+                <h2> right</h2>
+            </div>
+        </div>
+
+    
+    <div class ="buttom">
+         <footer><h2>This is footer</h2></footer>
+    </div>
+
+</body>
+</html>

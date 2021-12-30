@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display&family=Source+Sans+Pro:ital,wght@1,300&display=swap');
+
+*{
+    padding : 0;
+    margin : 0;
+    }
+
+.lato{
+         font-family: 'Lato', sans-serif;
+    }
+
+.lora{  
+        font-family: 'Lora';
+        }
+
+.container{
+    width = 100%;
+}
+
+.left {
+    float : left;
+    }
+
+.right {
+    float : right;
+    }
+
+.header {
+    margin : 0px;
+    padding : 0px;
+    width : 100%;
+    border-bottom : 1px solid black;
+}
+
+.title-text{
+    font-family : 'Playfair Display',serif;
+    font-weight : bold;
+    font-size : 30px;
+    color : #000000;
+    margin: 10px;
+    padding : 10px;
+    display : inline-block;
+}
+
+a{
+    text-decoration : none;
+    }
+
+
+.header-right{
+    display: inline-block;
+    }
+
+.navbar-list{
+    width : 600px;
+    margin-top : 25px;
+    list-style-type : none;
+    }
+
+
+
+.navbar-list ul{
+    list-style-type : none;
+    margin : 0;
+    padding : 0;
+    overflow : hidden;
+}
+
+.navbar-list li {
+    float : left;
+    padding-right : 30px;
+ }
+
+.navbar-list li a {
+    display : block ;
+    color : #000000;
+    text-align : center ;
+    text-decoration : none;
+    font-family : 'Lato',sans-serif;
+    font-weight : 300;
+    font-size : 16px;
+}
+
+.navbar-list li : first-child a{
+    font-weight : 400;
+}
+
+.login {
+    float: right ;
+    clear : both;
+}
+
+.login span{
+    font-family : 'Lato',sans-serif;
+    font-weight : 300;
+    font-size : 20px;
+    display : inline-block;
+    color : #000000;
+    margin-top : 15px;
+    margin-right : 130px;
+}
+
+.wrapper {
+    margin : 20px;
+    padding : 20px;
+}
+
+.information {
+    margin : 10px;
+    padding : 10px;
+}
+
+.title-color {
+    color : orange;
+
+}
+
+.info-left{
+    width : 500px;
+    float : left;
+}
+
+.info-right{
+    margin-top : 30px;
+    padding-left: 10px;
+    float : right;
+}
+
+.info-right h1{
+    font-family : 'Playfair Display', serif;
+    font-weight : bold;
+    font-size : 35px;
+    text-transform : capitalize;
+    color : #334756;
+}
+
+.info-right p{
+    font-family : 'Lato', sans-serif;
+    font-weight : bold;
+    font-size : 16px;
+    color : #667580;
+    width : 396px;
+    padding : 20px;
+}
+
+.info-right buttons{
+    margin-top : 60px;
+    padding : 10px;
+}
+
+.info-right button{
+    padding: 5px 20px;
+    width: 170px;
+    height: 48px;
+    margin-right: 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    background-color: #ff6041;
+    color: #ffffff;
+    border: none;
+}
+
+.info-right button:nth-child(2){
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid;
+}
+
+.clearfix::after{
+    content: " ";
+    clear: both;
+    display: table;
+  }
+
+.content-box{
+    margin-top :60px;
+    padding : 10px;
+    display : block;
+    }
+
+
+.browse-header { 
+    display : block;  
+    width : 100%;   
+    }
+
+.browse-header h2{
+    text-transform: capitalize;
+    display: inline;
+    width: 411px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 43px;
+    color: #2C394B;
+    margin-top : 30px;
+}
+
+.browse-content{
+    display: inline;
+    padding-left: 10px;
+    }
+
+.browse-content p{
+    width: 500px;
+    height: 43px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #667580;
+    margin-top:-20px;
+}
+
+.card-content {
+    width :100%;
+    margin-top :60px;
+    display :block;
+    margin-left :30px;
+    padding; 20px;
+}
+
+
+.office-card {
+    height : 264px;
+    width : 355px;
+    margin-top :60px;
+    background-color : #2C394B;
+    display : inline-block;
+    margin-left : 50px;
+    margin-right : 50px;
+}
+
+
+.card-img{
+    height : 200px;
+    width : 100%;
+    display : block;
+    }
+
+.office-card-details {
+    margin-top :10px;
+    margin-left : 20px;
+    padding : 20px;
+    height : 64px;
+}
+
+
+       
+
+
+
