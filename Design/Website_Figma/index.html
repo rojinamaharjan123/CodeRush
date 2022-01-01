@@ -12,9 +12,14 @@
 </head>
 <body>
     <div class="container">
-        <header class="header">
-            <label class="title-text"> Lembers</label>
-            <div class ="header-right">
+        <header class="clearfix header">
+            <a href ="#">
+            <img src ="images/hamburger.png" alt="hamburgericon" class ="left hamburger"/>
+        </a>
+            
+            <label class="right title-text"> Lembers</label>
+            <!--
+            <div class ="left header-right">
                 <ul class="navbar-list">
                     <li><a href ="#home">Home</a></li>
                     <li><a href = "#services">Services<i style="color: #6185a0; margin-left :8px;" class ="fa fa-chevron-down"></i></a></li>
@@ -23,98 +28,127 @@
                     <li>Contact</li>
                 </ul>
             </div>
-             <div class="login">
-                 <span><a href="#"> LogIn<i style = "paddding-left : 25px; margin-top : 25px;" class="fa fa-user-circle-o"></i></a></span>
+             <div class=" right login">
+                 <span class ="lora"><a href="#"> Log In<i style = "paddding-left : 25px; margin-top : 25px;" class="fa fa-user-circle-o"></i></a></span>
             </div>
+            -->
          </header> 
         <div class ="wrapper"> 
-            <div class = "clearfix information">
-                <div class ="left info-left">
-                    <img src ="images/image1.png" alt ="Banner image"/>
+            <div class = "information">
+                <div class ="info-img">
+                    <img src ="images/image1.png" alt ="Banner image" class="main-img"/>
                 </div>
-                <div class ="right info-right">
-                    <h1> A Revolutionary <br> <span class ="title-color"> Co-working Space </span><br> To Find The Best Innovations </h1>
-                    <p> In frispes, we spearhead new initiatives and provide mentorship to a new startup, and help grow their opportunities in key local, regional and global markets</p>
-                    <div class = "info-right-buttons">
-                        <button>Find your place</button>
-                        <button> Contact</button>
+                <div class ="info-intro">
+                    <h1 class="title"> A Revolutionary <br> <span class ="title-color"> Co-working Space </span> To <br>Find The Best Innovations </h1>
+                    <p  class="subtitle"> In frispes, we spearhead new initiatives and provide mentorship to a new startup, and help grow their opportunities in key local, regional and global markets</p>
+                    <div class = "info-buttons">
+                        <button class="btn btn-primary" >Find your place</button>
+                        <button class="btn btn2"> Contact</button>
                     </div>
                 </div>
             </div>
 
-            <div class = "content">
-                <div class = " clearfix content-box">
-                    <div class="left browse-header">
-                        <h2>Browse by workspace</h2>
-                        <div class="right browse-content">
-                            <p>For companies of all sizes, WeWork provides global scale facilities and flexibility to help your business adapt to uncertainty. Find the right space for you.</p>     
-                        </div>
-                    </div>
+            <div class = "services">
+                <div class = "services-content">
+                    <h2 class="title">Browse by workspace</h2>
+                    <p class="subtitle">For companies of all sizes, WeWork provides global scale facilities and flexibility to help your business adapt to uncertainty. Find the right space for you.</p>     
+                        
+                   
                 </div>
 
-                <div class = "clearfix card-content">
+                <div class = "card-content">
                     <div class="office-card">
                         <div class="card-img">
-                            <img src ="images/image2.png" alt ="My Workspace"/>
+                            <img src ="images/image2.png" alt ="My Workspace" 
+                        />
                         </div>
-                        <div class = "office-card-details">
-                            <span class="left">Office Space</span>
-                            <span class="right"><i class = "fa fa-users"> </i><span>
+                        <div class = "clearfix office-card-details">
+                            <span class="left">Office Space  </span>
+                            <span style = "margin-left : 100px;" class="right"><i class = "fa fa-users"> </i><span>
                             <span style = "margin-left : 10px;">1-20+</span>
                         </div>
                     </div>
-                    <div class="office-card">
+                    <div class="office-card card2" >
                         <div class="card-img">
-                            <img src ="images/image2.png" alt ="My Workspace"/>
+                            <img src ="images/image2.png" alt ="My Workspace" 
+                        />
                         </div>
+                        <div class = "clearfix office-card-details">
+                            <span class="left">Deck Space  </span>
+                            <span style = "margin-left : 100px;" class="right"><i class = "fa fa-users"> </i><span>
+                            <span style = "margin-left : 10px;">1+</span>
+                        </div>
+                    </div>
+                    <div class="office-card card-details">
                         <div class = "office-card-details">
-                            <span class="left">Office Space</span>
-                            <span class="right"><i class = "fa fa-users"> </i><span>
-                            <span style = "margin-left : 10px;">1-20+</span>
+                            <div class= "top" style="display:block">
+                            <span class="left">Deck Space  </span>
+                            <span style = "margin-left : 100px;" class="right"><i class = "fa fa-users"> </i><span>
+                            <span style = "margin-left : 10px;">1+</span>
                         </div>
+                        <p class="card-content">
+                            a personal computer intended for general use at a location as
+                            opposed to a laptop or portable computer....This type of
+                            computer is designed to be placed and used on a desk in the
+                            home or office
+                          </p>
+                          <div class="office-card-details card-background">
+                              <p class="hype">More Details</p>
+                           
+
+                          </div>
+                           
+                        </div>
+            
                     </div>
                     <div class="office-card">
                         <div class="card-img">
-                            <img src ="images/image2.png" alt ="My Workspace"/>
+                            <img src ="images/image2.png" alt ="My Workspace" 
+                        />
                         </div>
-                        <div class = "office-card-details">
-                            <span class="left">Office Space</span>
-                            <span class="right"><i class = "fa fa-users"> </i><span>
+                        <div class = "clearfix office-card-details">
+                            <span class="left">Open Workplace </span>
+                            <span style = "margin-left : 100px;" class="right"><i class = "fa fa-users"> </i><span>
                             <span style = "margin-left : 10px;">1+</span>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div class = "clearfix content-box">
-                    <div class="left browse-header">
-                        <h2>All facilities are designed<br>to meet all your needs <span class= "title-color" >needs</span></h2>
-                    </div>
-                        <div class="right browse-content">
-                            <p>During the COVID-19 pandemic, for your convenience we are improving our facilities at some stage so as not to hamper your productivity.</p>     
-                        </div>
-                </div>
-                <div class = "clearfix content-need">
-                    <div class="left content-need-left">
+                <div class = "facilities">
+                   
+                        <h2 class="title">All facilities are designed<br>to meet all your needs <span class= "title-color" >needs</span></h2>
+                   
+                
+                            <p class="subtitle">During the COVID-19 pandemic, for your convenience we are improving our facilities at some stage so as not to hamper your productivity.</p>     
+                        
+                <div class = "content-need">
+                    <div class="content-need-left">
                         <ul class="navbar-vertical">
                             <li>Cozy Cafe</li>
                             <li>Outdoor Space</li>
-                            <li class ="default-button"><span color : "white">Healthier Workplace</span></li>
+                            <li class ="default-button"><span  style="color : #ffffff">Healthier Workplace</span></li>
                             <li>Spacious Parking Area</li>
                         </ul>
                     </div>
                        
-                        <div class="right content-need-right">
-                            <img src ="images/image3.png" alt ="Your Needs"/>   
-                        </div>
                 </div>
+                <div class="facility">
+                    <img
+                      src="images/image4.png"
+                      alt="facility"
+                     
+                    />
+                  </div>
+            </div>
 
-               <div class = "clearfix location">
-                   <div class ="left map">
-                    <img src ="images/map.png" alt ="Map is here"/>
-                   </div>
-                   <div class ="right location-content">
-                       <p class ="location-content-text">Workspace <span>Where</span> and how you need it</p>
-                       <p class = "location-content-p">We are around you to make it easier for you to reach, to increase productivity and help your dreams come true</p>
+               <div class = "location">
+                   <div class ="location-content">
+                       <p class ="title">Workspace <span class="title-color">Where</span> and <br>how you need it</p>
+                       <p class = "subtitle">We are around you to make it easier for you to reach, to increase productivity and help your dreams come true</p>
+                       <div class ="map">
+                        <img src ="images/map.png" alt ="Map is here" width ="304px"/>
+                       </div>
                        <p class ="location-content-p explore">  <a href = "#explore"> Explore More <i class="fa fa-long-arrow-right"></i></a></p>
                    </div>
                 </div>
@@ -150,186 +184,191 @@
                     </div>
                 </div>
                 -->
-                <div class="testimonial">
-                    <h2 class="lora">What<br/><span class="span-color">Customers</span> Say</h2>
-                    <div class="testimonial-items">
-                        <div class="testimonial-box">
-                            <div class="testimonial-statement">
-                                <p class="lato">I think the service is very good, all the facilities are as shown, what's more</p>    
-                            </div>
-                            <i style="color: #667580;" class="fa fa-quote-left fa-3x"></i>
-                            <div class="testimonial-footer">
-                                <span>
-                                    <img src="images/client1.png" alt="client1 image"/>
-                                    <span class="client-info lato">
-                                        <h3>Syamsul Huda</h3>
-                                        <span>Webs Developer at BliBali</span>
-                                    </span>
-                                </span>
-                            </div>
+        
+            <div class="testimonial">
+                <h2 class="title">What<br/><span class="title-color">Customers</span> Say</h2>
+                <div class="testimonial-items">
+                    <div class="testimonial-box">
+                        <div class="testimonial-statement">
+                            <p class="subtitle">I think the service is very good, all the facilities are as shown, what's more</p>    
                         </div>
-                    </div>
-            
-                    <div class="swipe introduction__buttons lato">
-                        <a href="#">Swipe<i class="fa fa-long-arrow-right"></i></a>
-                    </div>
-            
-                    <div class="testimonial-items testimonial-items-desktop">
-                        <div class="testimonial-box">
-                            <div class="testimonial-statement">
-                                <p class="lato">I feel comfortable and safe when I'm there because I really pay attention to the health protocols that apply</p>    
-                            </div>
-                            <i style="color: #667580;" class="fa fa-quote-left fa-3x"></i>
-                            <div class="testimonial-footer">
-                                <span>
-                                    <img src="images/client2.png" alt="client2 image"/>
-                                    <span class="client-info lato">
-                                        <h3>Amin Mbeledos</h3>
-                                        <span>Product Designer at KangPondok</span>
-                                    </span>
+                        <i style="color: #667580;" class="fa fa-quote-left fa-3x"></i>
+                        <div class="testimonial-footer">
+                            <span>
+                                <img src="images/client1.png" alt="client1 image"/>
+                                <span class="client-info lato">
+                                    <h3>Syamsul Huda</h3>
+                                    <span>Webs Developer at BliBali</span>
                                 </span>
-                            </div>
-                        </div>
-                    </div>
-            
-                    <div class="testimonial-items testimonial-items-desktop">
-                        <div class="testimonial-box">
-                            <div class="testimonial-statement">
-                                <p class="lato">The arrangement is cool, what an amazing place</p>    
-                            </div>
-                            <i style="color: #667580;" class="fa fa-quote-left fa-3x"></i>
-                            <div class="testimonial-footer">
-                                <span>
-                                    <img src="images/client3.png" alt="client3 image"/>
-                                    <span class="client-info lato">
-                                        <h3>Sheril Rugyah</h3>
-                                        <span>Mobile Developer at BroAkrab</span>
-                                    </span>
-                                </span>
-                            </div>
+                            </span>
                         </div>
                     </div>
                 </div>
-            
-                <div class="clients">
-                    <div class="clients-showcase">
-                        <h1>Trusted by the world’s <span style="color: #ff6041;">top companies</span></h1>
-                        <p class="lato" style="font-weight: bold;">From entrepreneurs to Fortune 500s, we’re listening and learning from our global community of businesses as they adapt and reinvent.</p>
-                        <div class="clients-logo">
-                            <span><img src="images/zoom.png" alt="zoom logo"/></span>
-                            <span><img src="images/grab.png" alt="grab logo"/></span>
-                            <span><img src="images/googlemeet.png" alt="meet logo"/></span>
-                            <span><img src="images/microsoft.png" alt="microsoft logo"/></span>
-                        </div>
-                    </div>
+        
+                <div class="swipe">
+                    <a href="#">Swipe<i class="fa fa-long-arrow-right"></i></a>
                 </div>
-            
 
-                <div class="trends">
-                    <h1><span style="color: #ff6041;">Trends</span> and <span style="color: #ff6041;">Insights</span> at work</h1>
-                    <div class="trend-box">
-                        <div class="trend-item nomargin">
-                            <img src="images/image5.png" alt="card1">
-                            <div class="trend-title lato ">
-                                <h4>Does productivity increase when working remotely?</h4> 
-                                <p>Syamsul Huda</p> 
-                            </div>
-                        </div>
-            
-                        <div class="trend-item trend-item-mobile">
-                            <img src="images/image5.png" alt="card1">
-                            <div class="trend-title lato ">
-                                <h4>Does productivity increase when working remotely?</h4> 
-                                <p>Syamsul Huda</p> 
-                            </div>
-                        </div>
-            
-                        <div class="trend-item">
-                            <img src="images/image6.png" alt="card1">
-                            <div class="trend-title lato ">
-                                <h4>What should we do to make a startup ?</h4> 
-                                <p>Syamsul Huda</p> 
-                            </div>
-                        </div>
-            
-                        <div class="trend-item nomargin">
-                            <img src="images/image7.png" alt="card1">
-                            <div class="trend-title lato ">
-                                <h4>It turns out that this is needed in the coming era!</h4> 
-                                <p>Syamsul Huda</p> 
-                            </div>
-                        </div>
-            
-                        <div class="trend-item trend-item-mobile">
-                            <img src="images/image8png.png" alt="card1">
-                            <div class="trend-title lato ">
-                                <h4>Register #MboisTalk</h4> 
-                                <p>Syamsul Huda</p> 
-                            </div>
-                        </div>
-            
-                        <div class="trend-item trend-item-mobile">
-                            <img src="images/image9.png" alt="card1">
-                            <div class="trend-title lato ">
-                                <h4>FREE Start Up Events from the experts!</h4> 
-                                <p>Syamsul Huda</p> 
-                            </div>
-                        </div>
-                    </div>
+            </div>
+                
+            <div class="socialproof">
+                <p class="title centered">
+                  Trusted by the Worlds
+                  <span class="title-color break"> top companies </span>
+                </p>
+                <p class="subtitle inc">
+                  From entrepreneurs to Fortune 500s, we are listening and learning from
+                  our global community of businesses as they adapt and reinvent.
+                </p>
+                <div class="logo">
+                  <div class="zoom">
+                    <img
+                      src="images/zoom.png"
+                      alt="zoom logo"
+                    />
+                  </div>
+                  <div class="grab">
+                    <img
+                      src="images/grab.png"
+                      alt="grab logo"
+                      
+                    />
+                  </div>
+                  <div class="meet">
+                    <img
+                      src="images/googlemeet.png"
+                      alt="meet logo"
+                     
+                    />
+                  </div>
+                  <div class="microsoft">
+                    <img
+                      src="images/microsoft.png"
+                      alt="microsoft logo"
+                     
+                    />
+                  </div>
                 </div>
-                <div class="footer">
-                    <div class="footer-box">
-                        <div class="footer-section">
-                            <h1>Lemburs</h1>
-                            <p class="lato"><i class="fa fa-phone"></i><b>+62 (21) 3456 7891</b></p>
-                            <p class="lato">PT. Lembur Tipes</p>
-                            <p class="lato">Jalan Bahagia Jembrana, Bali </p>
-                            <p class="lato footer-location"><b>Our Location </b><i class="fa fa-chevron-down"></i></p>
-                        </div>
-            
-                        <div class="footer-section lato footer-section-mobile">
-                            <ul>
-                                <li><a href="#"><b>Company</b></a></li>
-                                <li><a href="#">Mission</a></li>
-                                <li><a href="#">Career</a></li>
-                                <li><a href="#">Investors</a></li>
-                                <li><a href="#">Newsroom</a></li>
-                            </ul>
-                        </div>
-            
-                        <div class="footer-section lato footer-section-mobile">
-                            <ul>
-                                <li><a href="#"><b>Partnerships</b></a></li>
-                                <li><a href="#">Brokers</a></li>
-                                <li><a href="#">Landlords</a></li>
-                                <li><a href="#">Refer a Friend</a></li>
-                                <li><a href="#">Event Planners</a></li>
-                            </ul>
-                        </div>
-            
-                        <div class="footer-section lato footer-section-mobile">
-                            <ul>
-                                <li><a href="#"><b>Support</b></a></li>
-                                <li><a href="#">Covid Response</a></li>
-                                <li><a href="#">FAQ</a></li>
-                                <li><a href="#">Contact Us</a></li>
-                            </ul>
-                        </div>
-            
-                        <div class="footer-section footer-section-right lato">
-                            <ul>
-                                <li class="footer-section-mobile"><a href="#"><b>Language</b></a></li>
-                                <li class="footer__link--unique footer-section-mobile"><a href="#">United States <i class="fa fa-chevron-down"></i></a></li>
-                                <li><span><i class="fab fa-facebook"></i><i class="fab fa-instagram"></i><i class="fab fa-twitter"></i></span></li>
-                            </ul>
-                        </div>
-                        <div class="clear"></div>
-            
-                        <div class="copyright">
-                            <p class="lato">Landing Page - Lemburs Created By <b>Mickwaz</b></p>
-                        </div>
-            
+              </div>
+              <div class="information">
+                <p class="title major">
+                  <span class="sec-color">Trends</span> And
+                  <span class="sec-color">Insights</span> At Work
+                </p>
+                <div class="trend_cards-block">
+
+                  <div class="trend-cards" id="trend-card1">
+                    <div class="trend-pic">
+                      <img
+                        src="images/image6.png"
+                        alt="Trend pic"
+                       
+                      />
                     </div>
+                    <div class="trend-info">
+                      <div class="trend-topic">
+                        Does productivity increase when working remotely ?
+                      </div>
+                      <div class="trend-writer">Syamsul Huda</div>
+                    </div>
+                  </div>
+        
+                  <div class="trend-cards" id="trend-card2">
+                    <div class="trend-base">
+                      <div class="trend-titled">
+                        7 High Potential Startup Sectors During a Pandemic Up to 5 Years
+                        away
+                      </div>
+                      <div class="trend-subtitle">
+                        Startups or start-up companies are now starting to develop a
+                        lot, especially in Indonesia. This company has come up with
+                        many...
+                      </div>
+                      <div class="trend-base-writer">Fahmi Auliya Rohman</div>
+                      <div class="trend-profile">
+                        <img
+                          src="images/image7.png"
+                          alt="profile picture"
+                          width="40px"
+                          height="40px"
+                        />
+                      </div>
+                    </div>
+                    <div class="view">
+                      <p>
+                        View More
+                        <span><img src="image/blueline.png" alt="Line" /></span>
+                      </p>
+                    </div>
+                  </div>
+                
+                  <div class="trend-cards" id="trend-card3">
+                    <div class="trend-pic">
+                      <img src="images/image8png.png" alt="Trend pic" />
+                    </div>
+                    <div class="trend-info">
+                      <div class="trend-topic">
+                        What should we do to make a startup ?
+                      </div>
+                      <div class="trend-writer">Ko Irvan Stainly</div>
+                    </div>
+                  </div>
+                 
+                  <div class="trend-cards" id="insight4">
+                    <div class="trend-pic">
+                      <img src="images/image9.png" alt="Trend pic" />
+                    </div>
+                    <div class="trend-info">
+                      <div class="trend-topic">
+                        It turns out that this is needed in the coming era!
+                      </div>
+                      <div class="trend-writer">Irvan Bukan Hakim</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+              <footer>
+                <div class="footer">
+                  <p id="comp-logo">Lemburs</p>
+                  <p class="phone">+62 (21) 3456 7891</p>
+                  <p>PT. Lembur Tipes</p>
+                  <p>Jalan Bahagia Jembrana, Bali</p>
+        
+                  <p class="footer-location">Our Location</p>
+        
+                <div class="lang">
+                  <p>Language</p>
+                  <p id="us">United Stated</p>
+                </div>
+        
+                  <div class="social-icons">
+                    <img
+                      src="images/facebook.png"
+                      alt="facebook"
+                      class="fb"
+                      width="24px"
+                      height="24px"
+                    />
+
+                    <img
+                      src="images/twitter1.png"
+                      alt="twitter"
+                      width="24px"
+                      height="24px"
+                      class="twitter"
+                    />
+                    <img
+                      src="images/instagram2.png"
+                      alt="instagram"
+                      width="24px"
+                      height="24px"
+                      class="insta"
+                    />
+                  </div>
+                  <p class="copyright">Landing Page - Lemburs Created By <span style="color: #667580;">Mickwaz</span> </p>
+                </div>
+              </footer>
                    
 
 
